@@ -122,6 +122,19 @@ class _OtpScreenState extends State<OtpScreen> {
               SizedBox(
                 height: height * 0.02,
               ),
+              Container(
+                height: height*0.05,
+                width: double.infinity,
+                decoration: BoxDecoration(
+                  borderRadius: const BorderRadius.all(Radius.circular(10.0)),
+                  border: Border.all(
+                    width: 0.1,
+                    style: BorderStyle.solid,
+                    color: Colors.black
+                  ),
+                  color: Colors.grey.shade200
+                ),
+              ),
               //    FadeInDown(
               //     delay: Duration(milliseconds: 600),
               //     duration: Duration(milliseconds: 500),
